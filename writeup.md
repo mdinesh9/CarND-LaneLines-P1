@@ -33,7 +33,11 @@ My pipeline consisted of the following five steps:
     6. Draw lines on the left and right lanes in front of the car
 
 
-    
+1. Convert the image to grayscale
+
+I converted the image to grayscale image using opencv
+
+    cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
 
 ![alt text][image1]
 
