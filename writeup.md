@@ -33,11 +33,23 @@ My pipeline consisted of the following five steps:
     6. Draw lines on the left and right lanes in front of the car
 
 
-1. Convert the image to grayscale
+#### Convert the image to grayscale
 
 I converted the image to grayscale image using opencv
 
     cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
+
+#### Apply Gaussian Blur
+
+Applied gaussian blur with kernel size 3
+
+    cv2.GaussianBlur(img, (3, 3), 0)
+
+#### Apply Canny Edge Detection
+
+Applied Canny edge detection with low and high thresholds = 75, 150
+
+    cv2.Canny(img, low_threshold, high_threshold)
 
 ![alt text][image1]
 
