@@ -80,6 +80,4 @@ Current shortcoming is the final optional challenge. Apart from this, if there a
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+More experiments with parameters for Gaussian Blur, Hough transformation and Region masking.
