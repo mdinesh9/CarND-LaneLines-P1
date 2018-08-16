@@ -51,6 +51,24 @@ Applied Canny edge detection with low and high thresholds = 75, 150
 
     cv2.Canny(img, low_threshold, high_threshold)
 
+#### Apply Region Masking
+
+Applied region masking to detect the region infront of the car
+
+#### Apply Hough Transformation
+
+Applied hough transformation. Here I experimented with multiple parameters to get smooth detection.
+
+#### Draw lines
+
+This was the most time consuming step. 
+
+First I calculated average slope and based on the sign of the slope value, I determined whether the line falls on the left side or right side considering the axis (0,0) starts at the top right.
+
+The I extrapolated the lines to join them as a single line in the output.
+
+
+
 ![alt text][image1]
 
 
