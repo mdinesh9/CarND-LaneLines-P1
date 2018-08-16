@@ -69,15 +69,13 @@ The I extrapolated the lines to join them as a single line in the output.
 
 
 
-![alt text][image1]
+<!-- ![alt text][image1] -->
 
 
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
+Current shortcoming is the final optional challenge. Apart from this, if there are no lanes at all on the road, or if there are multiple lines. 
 
 
 ### 3. Suggest possible improvements to your pipeline
